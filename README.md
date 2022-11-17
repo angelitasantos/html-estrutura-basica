@@ -146,7 +146,7 @@ Type: i "números romanos minúsculos sequenciais"<br>
 <hr>
 
 <h2>Imagens</h2>
-<img src="/static/image.jpg" width="400px" height="300">
+<img src="templates/static/img/image.jpg" width="400px" height="300">
 <hr>
 
 <h2>Links</h2>
@@ -199,7 +199,7 @@ Site para criar textos aleatórios:
 </tr>
 
 <tr>
-    <td colspan="5" align="center"><img src="/static/image.jpg" width="400" height="300"></td>
+    <td colspan="5" align="center"><img src="templates/static/img/image.jpg" width="400" height="300"></td>
 </tr>
 
 </table>
