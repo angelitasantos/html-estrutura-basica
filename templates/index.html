@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "base.html" %}
+{% load static %}
+{% block title %} Tags Básicas HTML {% endblock %}
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>{% block title %}Tags Básicas HTML{% endblock %}</title>
-	<link rel="icon" href="/static/logo.png">
-</head>
+{% block 'body' %}
 
-<body>
 	<h1>HTML Tags Básicas</h1>
 
 	<br>
@@ -148,7 +144,7 @@
 	<hr>
 
 	<h2>Imagens</h2>
-	<img src="/static/image.jpg" width="400px" height="300">
+	<img src="{% static 'img/image.jpg' %}" width="400px" height="300">
 	<hr>
 
 	<h2>Links</h2>
@@ -201,7 +197,7 @@
 		</tr>
 
 		<tr>
-			<td colspan="5" align="center"><img src="/static/image.jpg" width="400" height="300"></td>
+			<td colspan="5" align="center"><img src="{% static 'img/image.jpg' %}" width="400" height="300"></td>
 		</tr>
 
 	</table>
@@ -257,6 +253,5 @@
 	Curso: UDEMY Desenvolvimento WEB<br><br>
 	Instrutor: Jamilton Damasceno<br><br>
 
-</body>
-
-</html>
+	
+{% endblock %}
